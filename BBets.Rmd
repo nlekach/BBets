@@ -131,6 +131,7 @@ The 95% confidence interval is between `r ssanswer[25]` and `r ssanswer[975]`.
 
 We began this problem by responding to the third question first. First, we determined how much money Brownlow would make if the bet, with 2:1 odds, was completed 637 times. Then we simulated this 1000 times to find the 95% confidence interval.   
   
+  
 Next, we sought to answer the first question: What are the fair odds for a bet on matching birthdays in a 35 person class? To respond to this question, we used the methods for question 3, as listed above, however we changed the amount Brownlow paid out if he lost. By changing the amount, we adjusted the odds. We eventually determined that if the odds ratio is 4.20 dollars to 1.00 dollar, then the bet is fair. If Brownlow loses 4.20 dollars every time he loses, the bet is fair with a class size of 35 students. We determined this because at a 4.2:1 ratio,  center of the spread of the simulated bets is at zero.   
   
 Finally, we answered the second question: For what size class is a 2:1 odds bet fair? We used the same methods as question three, but this time we changed the class size. We determined the class size should either be 28 or 29 students. With this size class, the center of the curve is around zero. This indicates that at this class size, Brownlow, on average, does not earn a profit from this bet.   
